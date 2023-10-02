@@ -1,0 +1,56 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.presentation{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.hello{
+    display:flex;
+    flex-direction: column;
+    
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+   
+}
+
+.list{
+    display: flex;
+    justify-content: center;        
+}
+
+.sections{
+    position:fixed;
+    list-style: none;
+    display:flex;
+    justify-content:center;
+    margin-top: 20px;
+    gap:150px;
+    
+}
+
+.about,.proyects{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-resume{
+    text-align: center;
+    padding:50px 150px 50px 150px;
+}
+
+.each-proyect{
+    list-style: none;
+    display:flex;
+    flex-direction: row;
+    
+}
