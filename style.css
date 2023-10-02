@@ -52,5 +52,13 @@
     list-style: none;
     display:flex;
     flex-direction: row;
-    
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    padding:50px;
+    gap:100px;
+    width:100vh;
+}
+.images{
+    width:300px;
 }
