@@ -45,9 +45,13 @@
 }
 
 .li:hover {
-    transform: translate(5px , 12px);
-    cursor:pointer;
-    
+    translate: 1rem;
+    cursor:pointer;  
+}
+
+a:link , a:visited {
+    text-decoration: none;
+    color:white
 }
 
 
@@ -80,10 +84,25 @@
     box-shadow: 10px 30px 30px #000;
 }
 .icon{
-    width:100px;
+    width:70px;
+    height: 65px;
+
 }
 
 .names{
     font-size: 20px;
     margin-top: 30px;
+}
+
+.message{
+    margin: 20px;
+    color:white;
+    font-size:20px;
+}
+.iconos{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap:30px;
+
 }

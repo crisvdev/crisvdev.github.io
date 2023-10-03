@@ -11,14 +11,14 @@
     <header class="presentation">
     <div class="list">
         <ul class="sections">
-            <li class="li">About me</li>
-            <li class="li">Proyects</li>
-            <li class="li">Contact</li>
+            <a href="#About"><li class="li">About me</li></a>
+            <a href="#Proyects"><li class="li">Proyects</li></a>
+            <a href="#Contact"><li class="li">Contact</li></a>
         </ul>
         <!--<img src="" alt="Cristina">-->
     </div>
         <div class="hello">
-            <h1>Hello, I´m Cristina Viñal</h1>
+            <a name="About"><h1>Hello, I´m Cristina Viñal</h1></a>
             <h3>Front-End Developer</h3>
         </div>
         
@@ -27,7 +27,7 @@
     <main>
         <div class="about">
             <h1>About me</h1>
-            <p class="about-resume">I´m junior developer based in Santiago de Compostela, Spain. Currently searching for a job in the Front-End area. I prefer to work remotely, but I can consider other posibilities. I´m most confortable working with React, but I`m totally open to learn other lenguages!</p>
+            <a name="Proyects"><p class="about-resume">I´m junior developer based in Santiago de Compostela, Spain. Currently searching for a job in the Front-End area. I prefer to work remotely, but I can consider other posibilities. I´m most confortable working with React, but I`m totally open to learn other lenguages!</p></a>
         </div>
         <div class="proyects">
             <h1>Proyects</h1>
@@ -65,12 +65,17 @@
             </ul>
         </div>
         <div class="contact">
-            <h1>Contact</h1>
-            <p>Contact me via email or social media!</p>
-            <a title="Linkedin profile" href="https://www.linkedin.com/in/cristina-vinal">
-                <img class="icon" src="images/linkedin.png" alt="Linkedin profile" />
-            </a>
-            <p>cristina_cris100@hotmail.com</p>
+            <a name="Contact"><h1>Contact</h1></a>
+            <p class="message">Contact me via email or social media!</p>
+            <section class="iconos">
+                <a  title="Linkedin profile" href="https://www.linkedin.com/in/cristina-vinal">
+                    <img class="icon" src="images/linkedin.png" alt="Linkedin profile" />
+                </a>
+                <a title="Github profile" href="https://github.com/crisvdev">
+                    <img class="icon" src="images/github.png" alt="Linkedin profile" />
+                </a>
+            </section>
+            <p class="message">cristina_cris100@hotmail.com</p>
         </div>
         
     </main>
