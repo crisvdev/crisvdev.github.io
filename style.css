@@ -149,3 +149,35 @@ a:link , a:visited {
     gap:30px;
 
 }
+
+@media (min-width : 320px) {
+    .sections {
+        padding-left: 50px;
+        padding-right: 50px;
+        height: 80px;
+        width: 100%;
+        gap: 20px;
+    }
+          .about-resume {
+              text-align: center;
+              padding: 40px 70px 40px 70px;
+              font-size: 20px;
+          }
+          .cristina {
+            padding-right: 10px;
+            padding-left: 10px;
+          }
+}
+
+@media (max-width : 320px) {
+    .each-proyect {
+        list-style: none;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        text-align: center;
+        justify-content: center;
+        padding: 50px;
+        gap: 100px;
+        max-width: 100vh;
+}}
