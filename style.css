@@ -6,41 +6,83 @@
 
 .content{
     background-color: #FFFFFF;
-        background-image: linear-gradient(180deg, #ffffff 10%, #bfb6dd 80%, #9081b7 100%);
+    background-image: linear-gradient(180deg, #ffffff 10%, #bfb6dd 80%, #9081b7 100%);
 }
 .presentation{
-    height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
+.picture{
+    width:300px;
+    text-align: center;
+    border-radius: 50%;
+    border-style:double;
+    margin-bottom: 60px;
+    margin-top: 160px;
+}
+.cristina{
+    display:block;
+    white-space: nowrap;
+    border-right: 4px solid;
+    width : 22ch;
+
+    animation: typing 2s steps(22);
+    
+    overflow: hidden;
+}
+
+@keyframes typing{
+from {width :0 }
+}
+
 
 .hello{
     display:flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-bottom: 100px;
-   
+    height:100vh;
+}
+
+.skills-container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+    margin-bottom: 120px;
+    margin-left: 90px;
+    margin-right: 90px;
+    flex-wrap: wrap;
+    
+}
+.skills1{
+    max-width:100px;
+}
+.skills{
+    max-width: 60px;
 }
 
 .list{
     display: flex;
     justify-content: center;
+    width:100%;
 }
 
 .sections{
     list-style: none;
     position:fixed;
     display:flex;
-    justify-content:center;
+    flex-wrap: nowrap;
+    justify-content:space-between;
     align-items: center;
+    padding-left: 150px;
+    padding-right: 150px;
     height: 80px;
     width:100%;
-    gap:300px;
+    gap:50px;
     font-size: 25px;
     background-color:#8a7bab;
-    
     color:white  
 }
 
@@ -64,7 +106,8 @@ a:link , a:visited {
 
 .about-resume{
     text-align: center;
-    padding:50px 150px 50px 150px;
+    padding:40px 150px 40px 150px;
+    font-size: 20px;
 }
 
 .each-proyect{
@@ -76,7 +119,7 @@ a:link , a:visited {
     justify-content: center;
     padding:50px;
     gap:100px;
-    width:100vh;
+    max-width:100vh;
 }
 .images{
     width:300px;
