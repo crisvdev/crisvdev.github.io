@@ -2,11 +2,12 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
 }
 
 .content{
-    background-color: #FFFFFF;
-    background-image: linear-gradient(180deg, #ffffff 10%, #bfb6dd 80%, #9081b7 100%);
+    background-color: #c5ae96;
+    background-image: linear-gradient(180deg, #e1d1c0 10%, #9e804818 80%, #e1d1c0 100%);
 }
 .presentation{
     display: flex;
@@ -14,18 +15,19 @@
     justify-content: space-between;
 }
 .picture{
-    width:300px;
+    width:200px;
     text-align: center;
     border-radius: 50%;
     border-style:double;
     margin-bottom: 60px;
-    margin-top: 160px;
+    margin-top: 90px;
 }
 .cristina{
     display:block;
     white-space: nowrap;
     border-right: 4px solid;
     width : 22ch;
+    color: #a5927e;
 
     animation: typing 2s steps(22);
     
@@ -81,9 +83,9 @@ from {width :0 }
     height: 80px;
     width:100%;
     gap:50px;
-    font-size: 25px;
-    background-color:#8a7bab;
-    color:white  
+    font-size: 30px;
+    background-color:#c5ae96;
+    
 }
 
 .li:hover {
@@ -93,7 +95,7 @@ from {width :0 }
 
 a:link , a:visited {
     text-decoration: none;
-    color:white
+    color:rgba(248, 245, 245, 0.696)
 }
 
 
@@ -102,6 +104,7 @@ a:link , a:visited {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    color: #a5927e;
 }
 
 .about-resume{
@@ -124,7 +127,7 @@ a:link , a:visited {
 .images{
     width:300px;
     border-radius: 10px;
-    box-shadow: 10px 30px 30px #000;
+    box-shadow: 10px 30px 30px #000000;
 }
 .icon{
     width:70px;
@@ -133,13 +136,14 @@ a:link , a:visited {
 }
 
 .names{
-    font-size: 20px;
-    margin-top: 30px;
+    font-size: 22px;
+    margin-top: 50px;
+    color:#897868;
 }
 
 .message{
-    margin: 20px;
-    color:white;
+    margin: 50px;
+    color:#897868;
     font-size:20px;
 }
 .iconos{
@@ -194,8 +198,7 @@ a:link , a:visited {
         width: 100%;
         gap: 50px;
         font-size: 25px;
-        background-color: #8a7bab;
-        color: white
+        color: #c5ae96
         }
     .about-resume {
         text-align: center;
