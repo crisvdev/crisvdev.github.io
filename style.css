@@ -98,7 +98,19 @@ from {width :0 }
 
 a:link , a:visited {
     text-decoration: none;
-    color:rgba(248, 245, 245, 0.696)
+    color: #897868;
+}
+.png{
+   
+    display:flex;
+    flex-direction: row;
+    width:80px;
+    justify-content:center;
+    align-items:center;
+    color: #a5927e;
+    gap:15px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
 }
 
 
@@ -149,11 +161,19 @@ a:link , a:visited {
     color:#897868;
     font-size:20px;
 }
+.email{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        margin: 50px;
+        color: #897868;
+        font-size: 20px;
+        text-decoration: solid;
+}
 .iconos{
     display: flex;
     flex-direction: row;
     align-items: center;
     gap:30px;
+    margin-bottom:20px;
 
 }
 
@@ -170,9 +190,9 @@ a:link , a:visited {
     }
     .about-resume {
         text-align: center;
-        padding: 40px 70px 40px 70px;
+        padding: 40px 150px 40px 150px;
         font-size: 20px;
-    }
+        }
     .cristina {
         padding-right: 10px;
         padding-left: 10px;
@@ -213,8 +233,8 @@ a:link , a:visited {
         }
     .about-resume {
         text-align: center;
-        padding: 40px 150px 40px 150px;
-        font-size: 20px;
+        padding: 40px 110px 40px 110px;
+        font-size: 15px;
         }
     .cristina {
         display: block;
@@ -231,6 +251,18 @@ a:link , a:visited {
 }
 @media (max-width : 525px){
     .li {
-            font-size: 25px;
+        font-size: 25px;
         }
+    .about-resume {
+        text-align: center;
+        padding: 40px 70px 40px 70px;
+        font-size: 10px;
+        }
+    .message{
+        font-size: 15px;
+    }
+    .cristina{
+        font-size: 25px;
+    }
+        
 }
